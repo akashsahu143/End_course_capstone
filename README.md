@@ -1,4 +1,4 @@
-function calculateBMI(weight, height) {
+ function calculateBMI(weight, height) {
   // Validate input
   if (weight <= 0 || height <= 0) {
     return "Invalid input: Weight and height must be positive values.";
